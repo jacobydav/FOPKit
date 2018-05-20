@@ -1,0 +1,35 @@
+How to program an ATTiny85 using an Arduino Uno
+
+
+
+1. Open Arduino 1.8.2. I have already added the ATTiny85 library to this version.
+
+2. Open the ArduinoISP sketch from the examples sketches.
+
+3. Before connecting the ATTiny programming board, upload the sketch to the Uno as usual. (Select
+	com port, and Uno board and AvrISP mkII as programmer)
+
+4. Connect the ATTiny programming board to the Arduino.
+
+I have re-purposed a prototype board to use as a programmer.
+To use it, connect the correct Arduino pins to the Screw terminals. The labels
+for each screw terminal are written on them.
+
+Insert the ATTiny85 in the DIP socket.
+
+5. Open the sketch you want to load to the ATTiny 85
+
+The code for Fiber Optic Painting is PWMTwinkle_ATTiny85.ino
+
+6. Change the Board option to ATTiny under Tools in the Arduino IDE.
+
+7. Change the Processor option to ATTiny85 under Tools in the Arduino IDE.
+	Clock should be set to 1MHz.
+	
+8. Change the programmer option to Arduion as ISP.
+
+9. Upload the code.
+
+There are 2 images in this directory that show the wiring connections.
+ProgramATTiny01.JPG
+ProgramATTiny02.JPG

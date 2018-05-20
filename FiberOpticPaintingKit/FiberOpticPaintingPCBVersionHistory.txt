@@ -1,0 +1,7 @@
+V1
+Uses the blue 25 turn potentiometers. They are difficult to turn.
+
+V2
+8/26/17
+Uses the 1 turn potentiometers.
+Increased the size of the holes for the wire pads, increased the size of the copper around the holes.

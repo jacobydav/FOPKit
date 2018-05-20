@@ -1,0 +1,19 @@
+6/19/17
+Programming the ATTiny85
+
+The pdfs from high-low tech in the Resources folder are very good. I am using Arduino 1.6.4. The ATTiny boards were already added. I must have done it at some point. The circuit for connecting Arduion to ATTiny85 worked just as they showed in their diagram.
+
+The only troubles I had were from the confusing pin labelling. Some people use the physical pin number, others use the IO number.
+
+I have examples of reading analog values from the potentiometer in AnalogInputTest_ATTiny85.ino. Most of the basic Arduino IDE functions are working
+with the ATTiny85.
+
+I am using the ATTiny85 at 1Mhz.
+
+
+NOTES on FOB PCB V1
+Received the boards on 6/30/17
+Assembly:
+Wire holes for the LEDs could be a tiny bit bigger. This would make it easier to get the wires in.
+
+Larger copper ring around wire holes and potentiometer holes would help.
