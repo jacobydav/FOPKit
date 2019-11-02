@@ -1,0 +1,4 @@
+1. The potentiometers are 103
+2. Use female JST connectors on the LEDs
+3. Use male JST connector for the power input.
+4. The JST connectors have very small diameter wires on them. It helps to first fill the PCB hole with solder. Then melt it and push the wire in.
